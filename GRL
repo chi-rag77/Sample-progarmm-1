@@ -1,0 +1,28 @@
+class Dataset {
+	private float distance;
+	private float time;
+
+	public Dataset(float distance, float time) {
+		this.distance = distance;
+		this.time = time;
+}
+
+class userinput{
+
+	public dloat[] distanceAndTime(int n){
+	scanner userIn = new scanner(system.in);
+	system.out.print("Enter user " +(n+1)+ " Distance:");
+	loat distance = userin.nextfloat();
+
+	system.out.print("enter user" + (n+1) +" Time:");
+	float time = userin.nextFloat();
+	float enterdData[]= {distance,time);
+	system.out.println{"================");
+	return enterdData;
+}
+
+class measure{
+	public float MeasureSpeed(float distance, float time)[
+	return distance/time;
+}
+}
